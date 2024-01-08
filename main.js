@@ -19,7 +19,7 @@ function showResult(name, gender, probability) {
 async function predict(event) {
   if (event.key == "Enter") {
     const firstName = event.target.value;
-    const queryUrl = `${base_api}/?name=${firstName}&country_id=ID`;
+    const queryUrl = `${base_api}/?name=${firstName}`;
 
     const response = await fetch(queryUrl);
     const result = await response.json();
