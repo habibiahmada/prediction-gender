@@ -1,4 +1,4 @@
-console.log("apa liat liat console!! pengen nyontek kan lu?!!  kepo bet ahh!!");
+console.log("apa liat liat console!! pengen nyontek kan lu?!! kepo bet ahh!!");
 
 const base_api = "https://api.genderize.io";
 
