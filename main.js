@@ -11,9 +11,6 @@ function showResult(name, gender, probability) {
   } else {
     genderDecode = "Cewek";
   }
-  if (gender == "null") {
-    genderDecode = "Null";
-  }
   const predictionText = `Halo ${name} Jenis Kelamin Kamu Kemungkinan Adalah ${genderDecode} sebesar ${probabilityPercentage}%`;
 
   predictionElement.textContent = predictionText;
